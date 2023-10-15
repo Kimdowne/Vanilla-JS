@@ -1,4 +1,9 @@
-const images = ["korea-night-houses.jpg"];
+const images = [
+  "korea-night-houses.jpg",
+  "korea-seoulfountain-night-lights.jpg",
+  "korea-road-lights.jpg",
+  "korea-park-landscape.jpg",
+];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
