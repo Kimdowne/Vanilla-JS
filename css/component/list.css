@@ -1,0 +1,18 @@
+.list {
+  position: absolute;
+  left: 50px;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+}
+
+#todo-list li:first-child {
+  justify-content: flex-start;
+}
+#todo-list li:last-child {
+  justify-content: flex-end;
+}

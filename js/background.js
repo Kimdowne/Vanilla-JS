@@ -1,4 +1,4 @@
-const images = ["windowsXP.jpg", "windows7.jpg", "windows10.jpg"];
+const images = ["korea-night-houses.jpg"];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 

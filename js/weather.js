@@ -10,7 +10,7 @@ function onGeoOK(position) {
       const weather = document.querySelector("#weather span:first-child");
       const region = document.querySelector("#weather span:last-child");
       region.innerText = data.name;
-      weather.innerText = data.weather[0].main;
+      weather.innerText = `@${data.weather[0].main}, `;
     });
 }
 function onGeoError() {

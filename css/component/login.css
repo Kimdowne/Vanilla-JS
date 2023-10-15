@@ -1,0 +1,28 @@
+#login-form {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-form input:first-child {
+  padding: 15px 15px;
+  border: none;
+  border-bottom: solid 3px rgba(0, 0, 0, 0.5);
+  background: none;
+}
+
+#login-form input:first-child::placeholder {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+#login-form input:last-child {
+  margin: 20px;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 5px black;
+  background-color: grey;
+}

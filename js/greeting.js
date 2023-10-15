@@ -32,3 +32,5 @@ if (savedUsername === null) {
 } else paintGreeting(savedUsername);
 
 loginInputText.addEventListener("click", handlePlaceholder);
+
+console.log(loginInputText);

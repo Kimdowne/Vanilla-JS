@@ -1,0 +1,20 @@
+#quete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 70px;
+}
+
+#quete span {
+  margin: 0px 0px;
+  font-weight: 700;
+  color: white;
+}
+
+#quete span:first-child {
+  font-size: 30px;
+}
+#quete span:last-child {
+  font-size: 25px;
+}
