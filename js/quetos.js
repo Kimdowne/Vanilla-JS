@@ -42,10 +42,12 @@ const quetes = [
   },
 ];
 
-const quete = document.querySelector("#quete span:first-child");
+const quete = document.querySelector("#quete");
+
+const phrase = document.querySelector("#quete span:first-child");
 const author = document.querySelector("#quete span:last-child");
 
 const todaysQuote = quetes[Math.floor(Math.random() * quetes.length)];
 
-quete.innerText = todaysQuote.quete;
+phrase.innerText = todaysQuote.quete;
 author.innerText = todaysQuote.author;

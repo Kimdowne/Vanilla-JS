@@ -1,32 +1,35 @@
 #login-form {
-  justify-content: center;
+  width: 370px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 #login-form input:first-child {
-  padding: 15px 15px;
+  width: 100%;
+  height: 120px;
   border: none;
-  border-bottom: solid 3px rgba(0, 0, 0, 0.5);
+  border-bottom: solid 5px rgba(255, 255, 255, 0.8);
   background: none;
 }
 
 #login-form input:first-child::placeholder {
-  font-size: 30px;
+  font-size: 70px;
+  font-weight: 800;
   text-align: center;
   color: white;
 }
 
 #login-form input:last-child {
-  margin: 20px;
-  padding: 10px 50px;
+  width: 100%;
+  padding: 10px 0px;
+  margin-top: 35px;
+  font-size: 20px;
+  font-weight: 800;
   border: none;
   border-radius: 50px;
   box-shadow: 5px black;
-  background-color: grey;
-}
-
-#greeting {
-  position: absolute;
+  color: black;
+  background-color: beige;
 }

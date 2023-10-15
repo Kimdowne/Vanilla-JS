@@ -1,14 +1,19 @@
-@import "component/login.css";
-@import "component/clock.css";
-@import "component/weather.css";
-@import "component/queto.css";
-@import "component/list.css";
-@import "component/background.css";
-
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
 
-body {
+@import "component/login.css";
+@import "component/greeting.css";
+@import "component/clock.css";
+@import "component/list.css";
+@import "component/weather.css";
+@import "component/background.css";
+@import "component/queto.css";
+
+* {
+  box-sizing: border-box;
   font-family: "Nanum Myeongjo", serif;
+}
+
+body {
   height: 90vh;
   display: flex;
   flex-direction: column;
