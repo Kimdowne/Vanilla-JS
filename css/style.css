@@ -5,17 +5,17 @@
 @import "component/list.css";
 @import "component/background.css";
 
-@import url("@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
 
-.hidden {
-  display: none;
-}
 body {
   font-family: "Nanum Myeongjo", serif;
   height: 90vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hidden {
+  display: none;
 }
